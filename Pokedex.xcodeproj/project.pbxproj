@@ -16,6 +16,9 @@
 		18428C061F311A830013BF81 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18428C051F311A830013BF81 /* Pokemon.swift */; };
 		18428C081F311B870013BF81 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18428C071F311B870013BF81 /* csv.swift */; };
 		18428C0A1F311BA00013BF81 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 18428C091F311BA00013BF81 /* pokemon.csv */; };
+		185115841F3139B100C1EE0C /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 185115831F3139B100C1EE0C /* pokemon.ttf */; };
+		185115891F313BC400C1EE0C /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 185115881F313BC400C1EE0C /* music.mp3 */; };
+		1851158B1F313BD400C1EE0C /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 1851158A1F313BD400C1EE0C /* music.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		18428C051F311A830013BF81 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		18428C071F311B870013BF81 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		18428C091F311BA00013BF81 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		185115831F3139B100C1EE0C /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		185115881F313BC400C1EE0C /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		1851158A1F313BD400C1EE0C /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +70,12 @@
 			children = (
 				18428C041F311A5A0013BF81 /* Model */,
 				18428C011F311A280013BF81 /* View */,
+				185115851F3139EE00C1EE0C /* Controller */,
+				185115861F3139FF00C1EE0C /* Resources */,
+				185115871F313A1B00C1EE0C /* Util */,
 				18428BEF1F3119D10013BF81 /* AppDelegate.swift */,
-				18428BF11F3119D10013BF81 /* ViewController.swift */,
 				18428BF31F3119D10013BF81 /* Main.storyboard */,
 				18428BF61F3119D10013BF81 /* Assets.xcassets */,
-				18428C091F311BA00013BF81 /* pokemon.csv */,
-				18428C071F311B870013BF81 /* csv.swift */,
 				18428BF81F3119D10013BF81 /* LaunchScreen.storyboard */,
 				18428BFB1F3119D10013BF81 /* Info.plist */,
 			);
@@ -90,6 +96,33 @@
 				18428C051F311A830013BF81 /* Pokemon.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		185115851F3139EE00C1EE0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18428BF11F3119D10013BF81 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		185115861F3139FF00C1EE0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				185115831F3139B100C1EE0C /* pokemon.ttf */,
+				18428C091F311BA00013BF81 /* pokemon.csv */,
+				1851158A1F313BD400C1EE0C /* music.png */,
+				185115881F313BC400C1EE0C /* music.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		185115871F313A1B00C1EE0C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18428C071F311B870013BF81 /* csv.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185115841F3139B100C1EE0C /* pokemon.ttf in Resources */,
+				1851158B1F313BD400C1EE0C /* music.png in Resources */,
 				18428BFA1F3119D10013BF81 /* LaunchScreen.storyboard in Resources */,
+				185115891F313BC400C1EE0C /* music.mp3 in Resources */,
 				18428BF71F3119D10013BF81 /* Assets.xcassets in Resources */,
 				18428C0A1F311BA00013BF81 /* pokemon.csv in Resources */,
 				18428BF51F3119D10013BF81 /* Main.storyboard in Resources */,
