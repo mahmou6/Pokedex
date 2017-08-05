@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18118DF71F349B41000AD9B1 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18118DF61F349B41000AD9B1 /* PokemonDetailVC.swift */; };
 		18428BF01F3119D10013BF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18428BEF1F3119D10013BF81 /* AppDelegate.swift */; };
 		18428BF21F3119D10013BF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18428BF11F3119D10013BF81 /* ViewController.swift */; };
 		18428BF51F3119D10013BF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18428BF31F3119D10013BF81 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18118DF61F349B41000AD9B1 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		18428BEC1F3119D10013BF81 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18428BEF1F3119D10013BF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18428BF11F3119D10013BF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				18428BF11F3119D10013BF81 /* ViewController.swift */,
+				18118DF61F349B41000AD9B1 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				18428C031F311A530013BF81 /* PokeCell.swift in Sources */,
 				18428C061F311A830013BF81 /* Pokemon.swift in Sources */,
 				18428BF21F3119D10013BF81 /* ViewController.swift in Sources */,
+				18118DF71F349B41000AD9B1 /* PokemonDetailVC.swift in Sources */,
 				18428BF01F3119D10013BF81 /* AppDelegate.swift in Sources */,
 				18428C081F311B870013BF81 /* csv.swift in Sources */,
 			);
