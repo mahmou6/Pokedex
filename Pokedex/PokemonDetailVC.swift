@@ -31,7 +31,21 @@ class PokemonDetailVC: UIViewController {
         super.viewDidLoad()
         
         nameLbl.text = pokemon.name
-
+        
+       pokemon.downloadPokemonDetail {
+        print("Did arrive here!")
+        
+        self.updateUI()
+        }
+    }
+    
+    func updateUI() {
+        baseAttackLbl.text = pokemon.baseAttack
+        print(baseAttackLbl.text as Any)
+        DefenseLbl.text = pokemon.defense
+        HeightLbl.text = pokemon.heigh
+        weightLbl.text = pokemon.weight
+        
     }
 
     
