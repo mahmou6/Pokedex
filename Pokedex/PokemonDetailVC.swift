@@ -18,8 +18,8 @@ class PokemonDetailVC: UIViewController {
     @IBOutlet weak var TypeLbl: UILabel!
     @IBOutlet weak var DefenseLbl: UILabel!
     @IBOutlet weak var HeightLbl: UILabel!
-    @IBOutlet weak var PokedexLbl: UIStackView!
     @IBOutlet weak var weightLbl: UILabel!
+    @IBOutlet weak var PokedexLbl : UILabel!
     @IBOutlet weak var baseAttackLbl: UILabel!
     @IBOutlet weak var currentEvoImg: UIImageView!
     @IBOutlet weak var nextEvoImage: UIImageView!
@@ -30,7 +30,15 @@ class PokemonDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLbl.text = pokemon.name
+        nameLbl.text = pokemon.name.capitalized
+        
+        let img = UIImage(named: "\(pokemon.pokedexId)")
+        
+        mainImg.image = img
+        
+        currentEvoImg.image = img
+        
+        PokedexLbl.text = "\(pokemon.pokedexId)"
         
        pokemon.downloadPokemonDetail {
         print("Did arrive here!")
@@ -45,6 +53,8 @@ class PokemonDetailVC: UIViewController {
         DefenseLbl.text = pokemon.defense
         HeightLbl.text = pokemon.heigh
         weightLbl.text = pokemon.weight
+        TypeLbl.text = pokemon.type
+        
         
     }
 
